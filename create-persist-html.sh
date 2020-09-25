@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Criando imagem do nginx
+#Criando imagem do nginx 
 docker pull nginx
 #Criando volume para persitir dados da pasta html do nginx
 docker volume create data-persist-html
